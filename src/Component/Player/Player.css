@@ -1,0 +1,33 @@
+.player-style{
+    border: 2px solid green;
+    margin: 10px;
+    padding :20px;
+    display: flex;
+    box-shadow: 10px 5px 20px rgb(124, 123, 123);
+    border-radius: 10px;
+}
+.img-style{
+    margin-right: 100px;
+    
+}
+.player-name{
+    font-size: 30px;
+    
+}
+.salary{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.add-button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width:160px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.add-button:hover{
+    background-color:white;
+    color:black;
+    cursor: pointer;
+}

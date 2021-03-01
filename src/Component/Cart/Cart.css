@@ -1,0 +1,6 @@
+.added-player{
+    display:flex;
+}
+.player-name {
+    padding:10px;
+}
