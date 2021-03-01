@@ -1,5 +1,6 @@
 import React from 'react';
-import './Cart.css'
+import './Cart.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cart = (props) => {
     const cart = props.cart;
@@ -26,6 +27,7 @@ const Cart = (props) => {
                         cart.map(salary => <h5 >{salary.salary} </h5>)
                     }
                 </div>
+                
             </div>
             
             

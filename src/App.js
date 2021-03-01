@@ -6,7 +6,7 @@ import Player from './Component/Player/Player';
 import Cart from './Component/Cart/Cart';
 import Header from './Component/Header/Header';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -44,7 +44,7 @@ function App() {
           <div>
             <Cart cart={cart} ></Cart>
             
-            <h2>No of Team Member Addedd: {cart.length} </h2>
+            <h4>No of Team Member Addedd: {cart.length} </h4>
             
           </div>
           
